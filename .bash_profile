@@ -50,4 +50,4 @@ fi
 
 
 
-export PS1="\[\033[38;5;33m\](\A) - \u @ \w\[ \[\033[38;5;45m\] \`parse_git_branch\` \[$(tput sgr0)\] \n\[\033[38;5;33m\]\\$\[$(tput sgr0)\] $(tput sgr0)\]"
+export PS1="\[\033[38;5;33m\](\A) - \u @ \w\[ \[\033[38;5;45m\] \`parse_git_branch\` \[$(tput sgr0)\] \n\[\033[38;5;33m\]\\$\[$(tput sgr0)\] "
