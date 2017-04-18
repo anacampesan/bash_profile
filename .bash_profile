@@ -48,6 +48,8 @@ if [ -f /etc/bash_completion ]; then
  . /etc/bash_completion
 fi
 
-
+# show files in directory upon pressing TAB
+# set completion-ignore-case on
+# set show-all-if-ambiguous on
 
 export PS1="\[\033[38;5;33m\](\A) - \u @ \w\[ \[\033[38;5;45m\] \`parse_git_branch\` \[$(tput sgr0)\] \n\[\033[38;5;33m\]\\$\[$(tput sgr0)\] "
